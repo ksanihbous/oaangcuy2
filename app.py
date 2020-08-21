@@ -257,15 +257,15 @@ def handle_message(event):
 		"""
 		sendMessage('Wayaaeee~')
 
-        if text == 'key':
-                sendMessage('''Keyword BARRYZTA:
+	if text == "key":
+		sendMessage("""Keyword BARRYZTA:
 1. Cara Kerja
 2. Pricelist
 3. Format orderan
 4. Payment
 5. Own & admin
 6. Pendapatan / upah
-7. Rekor''')
+7. Rekor""")
 
 	if text == 'byes':
 		sendMessage('See u next time~\n{}'.format(event.source.group_id))
